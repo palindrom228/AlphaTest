@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+  width: 100vw;
+  height: 100vh;
+}
+* {
+  transition: .3s;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+}
+.Switch {
+  width: 300px;
+  align-self: center;
+  height: 50px;
+  padding: 25px 0;
+}
+.CatCard {
+  width: 200px;
+  height: 300px;
+  background-color:azure;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.CatCard:hover {
+  opacity: .7;
+}
